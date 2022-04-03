@@ -1,0 +1,97 @@
+{
+    {
+      "inviter" : {
+        "id" : 271,
+        "last_name" : "Lenovoda",
+        "avatar" : {
+          "updated_at" : "2021-09-21T07:31:47+0000",
+          "order" : 1,
+          "caption" : "Angry na sya",
+          "source" : null,
+          "pk" : 415,
+          "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/a5c79e18-987e-4fb9-a6af-26606189d38c.jpeg",
+          "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/e5ef22a8-60c6-4562-8751-8cbf8b03a2d2.jpeg",
+          "user" : 271
+        },
+        "first_name" : "Ria"
+      },
+      "sparkflirt" : 1154,
+      "emojigo" : [
+        {
+          "answer" : {
+            "user" : 271,
+            "text" : "😚"
+          },
+          "question" : {
+            "text" : "Is this question 4?",
+            "id" : 4,
+            "user" : 220
+          },
+          "round" : 1
+        },
+        {
+          "answer" : {
+            "text" : "🥐🥨",
+            "user" : 220
+          },
+          "question" : {
+            "text" : "Is this question 7?",
+            "id" : 7,
+            "user" : 271
+          },
+          "round" : 2
+        },
+        {
+          "answer" : {
+            "text" : "😚🤩😔",
+            "user" : 271
+          },
+          "question" : {
+            "text" : "Is this question 5?",
+            "id" : 5,
+            "user" : 220
+          },
+          "round" : 3
+        },
+        {
+          "answer" : {
+            "text" : "🍒🥝🥬🫒🥐🌶",
+            "user" : 220
+          },
+          "question" : {
+            "text" : "Is this question 1?",
+            "id" : 1,
+            "user" : 271
+          },
+          "round" : 4
+        }
+      ],
+      "invitee_skips" : 0,
+      "turn_type" : "answer",
+      "current_round" : 4,
+      "is_keyboard" : false,
+      "inviter_skips" : 0,
+      "current_player_turn" : 220,
+      "created" : "2021-09-24T16:19:35+0000",
+      "inviter_reset" : 0,
+      "id" : 6,
+      "invitee_reset" : 0,
+      "modified" : "2021-09-25T05:49:05+0000",
+      "game_status" : "COMPLETED",
+      "invitee" : {
+        "id" : 220,
+        "first_name" : "Marlon",
+        "last_name" : "Boncodin",
+        "avatar" : {
+          "caption" : "Update caption",
+          "source" : "Instagram",
+          "user" : 220,
+          "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/96481b5b479693418976ed4e3247dc3715c46a6e642838da0f36ba504eebc7e8.jpeg",
+          "updated_at" : "2021-07-28T11:59:11+0000",
+          "order" : 1,
+          "pk" : 147,
+          "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/96481b5b479693418976ed4e3247dc3715c46a6e642838da0f36ba504eebc7e8.jpeg"
+        }
+      }
+    }
+}

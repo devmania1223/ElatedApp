@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Book font.ttf">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SigninViewController" customModule="Elated" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="rSD-u2-62T" id="T0G-qG-l7Y"/>
+                <outlet property="forgotPasswordButton" destination="pnS-hy-LS4" id="KSp-FF-Hnv"/>
+                <outlet property="passwordTextField" destination="hLE-oF-KPL" id="jyz-Mg-54u"/>
+                <outlet property="signInButton" destination="9gT-2w-UAi" id="cNO-80-M17"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in to Elated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9K9-mE-kNN">
+                    <rect key="frame" x="52.5" y="9" width="270" height="36"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="g6y-Ay-R2f"/>
+                        <constraint firstAttribute="width" constant="270" id="uEX-b1-82b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                    <color key="textColor" name="EerieBlack_262626"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="AQb-Qz-CxY">
+                    <rect key="frame" x="33" y="122" width="308" height="181"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rSD-u2-62T">
+                            <rect key="frame" x="0.0" y="0.0" width="308" height="60"/>
+                            <color key="backgroundColor" name="AlabasterSolid_FAFAFA"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="OT5-4l-YCQ"/>
+                                <constraint firstAttribute="width" constant="308" id="Pal-cw-eOl"/>
+                            </constraints>
+                            <color key="textColor" name="purple_6A1B9A"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hLE-oF-KPL">
+                            <rect key="frame" x="0.0" y="76" width="308" height="60"/>
+                            <color key="backgroundColor" name="AlabasterSolid_FAFAFA"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="MPK-G6-U2S"/>
+                                <constraint firstAttribute="width" constant="308" id="tpc-rY-dst"/>
+                            </constraints>
+                            <color key="textColor" name="purple_6A1B9A"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnS-hy-LS4">
+                            <rect key="frame" x="0.0" y="152" width="308" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="29" id="6S2-o9-f9e"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                            <state key="normal" title="Forgot your password?">
+                                <color key="titleColor" name="ElatedPrimaryPurple_6A1B9A"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="pnS-hy-LS4" firstAttribute="trailing" secondItem="hLE-oF-KPL" secondAttribute="trailing" id="DeB-vL-cMn"/>
+                        <constraint firstItem="pnS-hy-LS4" firstAttribute="leading" secondItem="hLE-oF-KPL" secondAttribute="leading" id="U4I-xE-Wae"/>
+                    </constraints>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Assets_Graphics_Bottom_Curve" translatesAutoresizingMaskIntoConstraints="NO" id="u5M-Sd-Jag">
+                    <rect key="frame" x="-2" y="535" width="379" height="135"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="135" id="yGh-vk-VVd"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gT-2w-UAi">
+                    <rect key="frame" x="33" y="572.5" width="309" height="60"/>
+                    <color key="backgroundColor" name="ElatedPrimaryPurple_6A1B9A"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="ZOk-NS-MaF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                    <state key="normal" title="Sign In"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="9gT-2w-UAi" firstAttribute="centerY" secondItem="u5M-Sd-Jag" secondAttribute="centerY" id="37u-15-M9T"/>
+                <constraint firstItem="AQb-Qz-CxY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="33" id="5bc-4a-6Sr"/>
+                <constraint firstItem="u5M-Sd-Jag" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-2" id="AoW-7T-Zx8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AQb-Qz-CxY" secondAttribute="trailing" constant="34" id="DbI-cp-13E"/>
+                <constraint firstItem="AQb-Qz-CxY" firstAttribute="top" secondItem="9K9-mE-kNN" secondAttribute="bottom" constant="77" id="Nzw-6E-TF3"/>
+                <constraint firstItem="9K9-mE-kNN" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="9" id="PvN-ea-pdp"/>
+                <constraint firstItem="9gT-2w-UAi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="33" id="alm-Dn-EIH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9gT-2w-UAi" secondAttribute="trailing" constant="33" id="c5Y-nd-5U1"/>
+                <constraint firstItem="u5M-Sd-Jag" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="2" id="f9g-fh-mvX"/>
+                <constraint firstItem="u5M-Sd-Jag" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" constant="3" id="iRC-7Z-xKj"/>
+                <constraint firstItem="9K9-mE-kNN" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="kT0-mt-qf3"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="142.57871064467767"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Assets_Graphics_Bottom_Curve" width="500" height="179"/>
+        <namedColor name="AlabasterSolid_FAFAFA">
+            <color red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EerieBlack_262626">
+            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ElatedPrimaryPurple_6A1B9A">
+            <color red="0.41568627450980394" green="0.10588235294117647" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="purple_6A1B9A">
+            <color red="0.41568627450980394" green="0.10588235294117647" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

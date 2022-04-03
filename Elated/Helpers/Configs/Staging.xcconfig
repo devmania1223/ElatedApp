@@ -1,0 +1,15 @@
+//
+//  Staging.xcconfig
+//  Elated
+//
+//  Created by Marlon on 2021/2/21.
+//  Copyright © 2021 elatedteam. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+ROOT_URL = https:/$()/dev-api.elated.io
+APP_NAME = ELATED STAGING
+APP_BUNDLE_ID = io.elated.mobile
+ENV = STAGING

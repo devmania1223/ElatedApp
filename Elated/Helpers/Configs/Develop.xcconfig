@@ -1,0 +1,22 @@
+//
+//  Develop.xcconfig
+//  Elated
+//
+//  Created by Marlon on 2021/2/21.
+//  Copyright © 2021 elatedteam. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+ROOT_URL = https:/$()/elateddev.herokuapp.com
+APP_NAME = ELATED DEV
+APP_BUNDLE_ID = com.elated.elated-dev
+ENV = DEVELOP
+FB_APP_ID = 1695141637340549
+FB_DISPLAY_NAME = Elated, INC. Dev
+FB_URL_SCHEME = fb1695141637340549
+GOGGLE_URL_SCHEME = com.googleusercontent.apps.778498106392-bte8a3gshunrns0antb39f0k7g7tek2n
+INSTAGRAM_URL_SCHEME = https:/$()/com.instagram/
+INSTAGRAM_CLIENT_ID = 818203072410163
+INSTAGRAM_SECRET = 7d33e0002c249b39152c15366a3942de

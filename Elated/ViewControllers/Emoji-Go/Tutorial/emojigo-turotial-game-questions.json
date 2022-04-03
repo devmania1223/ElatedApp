@@ -1,0 +1,29 @@
+{
+  "time" : "2021-10-14T07:40:54.123122",
+  "data" : [
+    {
+      "categories" : [
+
+      ],
+      "text" : "What's the FIRST country you visited?",
+      "id" : 6
+    },
+    {
+      "categories" : [
+
+      ],
+      "text" : "What's the LAST country you visited?",
+      "id" : 1
+    },
+    {
+      "categories" : [
+
+      ],
+      "text" : "What country you want to visit next?",
+      "id" : 4
+    }
+  ],
+  "code" : 1,
+  "success" : true,
+  "msg" : "Success"
+}

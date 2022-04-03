@@ -1,0 +1,53 @@
+{
+  "msg" : "Success",
+  "success" : true,
+  "data" : {
+    "invitee_text_color" : "4A91D4",
+    "sparkflirt" : 1225,
+    "game_status" : "STARTED",
+    "invitee" : {
+      "avatar" : {
+        "pk" : 392,
+        "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/69011f5c-930a-4976-bada-f20f408b06ad.jpeg",
+        "caption" : "",
+        "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/5ea5d898-7052-41a8-98b4-939b7923271b.jpeg",
+        "source" : null,
+        "updated_at" : "2021-08-25T15:33:14+0000",
+        "user" : 264,
+        "order" : 1
+      },
+      "id" : 264,
+      "last_name" : "Tester",
+      "first_name" : "Rey"
+    },
+    "phrase_counter" : 0,
+    "id" : 38,
+    "has_chat" : false,
+    "created" : "2021-11-23T03:40:29+0000",
+    "modified" : "2021-11-23T03:43:15+0000",
+    "phrases" : [
+
+    ],
+    "inviter_text_color" : "",
+    "is_first" : false,
+    "current_player_turn" : 264,
+    "sentence" : null,
+    "inviter" : {
+      "avatar" : {
+        "pk" : 444,
+        "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/6b73b37a-ec5a-49cf-9575-97ce707dbe1a.jpeg",
+        "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/ccb476e2-a919-40be-b729-1550a4e01b2b.jpeg",
+        "order" : 1,
+        "caption" : "",
+        "source" : null,
+        "updated_at" : "2021-10-13T07:35:22+0000",
+        "user" : 360
+      },
+      "id" : 360,
+      "last_name" : "Smith",
+      "first_name" : "Sam"
+    }
+  },
+  "time" : "2021-11-23T03:44:33.867975",
+  "code" : 1
+}

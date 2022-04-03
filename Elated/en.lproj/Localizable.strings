@@ -1,0 +1,733 @@
+/* 
+  Localizable.strings
+  Elated
+
+  Created by Marlon on 2021/2/20.
+  Copyright © 2021 elatedteam. All rights reserved.
+*/
+
+//NOTE: %@ is a parameter
+
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.go!" = "Go!";
+"common.go" = "Go";
+"common.done" = "Done";
+"common.save" = "Save";
+"common.error" = "Error";
+"common.error.somethingWentWrong" = "Something went wrong";
+"common.loading" = "Loading";
+"common.loading.dot.dot" = "Loading...";
+"common.continue" = "Continue";
+"common.skip" = "Skip";
+"common.submit" = "Submit";
+"common.confirm" = "Confirm";
+"common.success" = "Success";
+"common.showTutorial" = "Show Tutorial";
+"common.select" = "Select";
+"common.other" = "Other";
+"common.edit" = "Edit";
+"common.delete" = "Delete";
+"common.retry" = "Retry";
+"common.next" = "Next";
+"common.play" = "Play";
+"common.internetError" = "Your internet connection seems to be offline.";
+"common.sendNudge" = "Send Nudge";
+"common.sendNudge.message" = "Nudge successfully sent!";
+"common.share" = "Share";
+"common.howtoplay" = "How to Play";
+"common.answer" = "Answer";
+"common.accept" = "Accept";
+"common.decline" = "Decline";
+"common.gotit" = "Got it!";
+"common.options" = "Options";
+"common.reminder.sent" = "Reminder Sent!";
+"common.maybe.later" = "Maybe Later";
+"common.remind.later" = "Remind Me Later";
+"common.come.back.later" = "Come Back Later";
+"common.someone" = "Someone";
+
+"photo.camera.photoAlbum" = "Photo Album";
+"photo.camera.camera" = "Camera";
+"photo.camera.title" = "Image Selection";
+"photo.camera.message" = "From where you want to pick this image?";
+"photo.permission.denied" = "We were unable to access photos. Sorry! You can enable access in Privacy Settings";
+"camera.permission.denied" = "We were unable to access camera. Sorry! You can enable access in Privacy Settings";
+
+"distance.miles" = "Miles";
+"distance.kilometers" = "Kilometers";
+"distance.miles.short" = "mi";
+"distance.kilometers.short" = "km";
+
+"height.feet" = "ft & in";
+"height.meter" = "m/cm";
+
+"contact.us.sucess" = "We Received your Inquiry. We will get back to you soon!";
+
+//Riligion
+"religion.spiritual" = "Spiritual";
+
+//Logout
+"logout.alert.title" = "Logout";
+"logout.alert.message" = "Are you sure you want to logout?";
+
+//chat
+"chat.messages" = "Messages";
+"chat.first.message" = "Congrats! Chat unlocked! Start chatting with %@";
+"chat.image.default.message" = "image sent";
+"chat.message.deleted" = "Message deleted";
+"chat.option.button.delete" = "Delete Message";
+"chat.options" = "Message Options";
+"chat.select.options" = "Select an action";
+
+//time
+"timeago.year" = "%@ year ago";
+"timeago.years" = "%@ years ago";
+"timeago.month" = "%@ month ago";
+"timeago.months" = "%@ months ago";
+"timeago.day" = "%@ day ago";
+"timeago.days" = "%@ days ago";
+"timeago.hour" = "%@ hour ago";
+"timeago.hours" = "%@ hours ago";
+"timeago.minute" = "%@ minute ago";
+"timeago.minutes" = "%@ minutes ago";
+"timeago.second" = "%@ second ago";
+"timeago.seconds" = "%@ seconds ago";
+"timeago.moment" = "a moment ago";
+
+//Games
+"basho.texfield.placeholder" = "Type syllable";
+"basho.texfield.placeholder.syllable" = "Showing %@ syllable words...";
+"basho.texfield.placeholder.alphabet" = "Alphabet search...";
+"basho.dictionary.tip" = "Not sure about the definition? We have got you covered! Just tap on the word.";
+"basho.sylables" = "%@ of %@ sylables";
+"basho.words.tip" = "Start typing or choosing your words and syllables. Time is running out!";
+"basho.placeholder.alphabet.search" = "Alphabet search";
+"basho.placeholder.syllable.count" = "Choose syllable count";
+"basho.line.myTurn.title" = "It's your turn!";
+"basho.line.myTurn.subTitle" = "Finish the %@ line to earn a bar";
+"basho.line.other.title" = "It's %@'s turn!";
+"basho.line.current.turn" = "Finish the %@ line to earn a bar!";
+"basho.line.user.turn.done.0" = "Finish the first line to earn a bar!";
+"basho.line.user.turn.done.1" = "You finished the first line in %@ seconds. You earned another bar for completing the line.";
+"basho.line.user.turn.done.2" = "You finished the 2nd line in %@ seconds. You earned another bar for completing the line.";
+"basho.line.user.turn.skipped" = "You skipped the %@ line.";
+"basho.line.other.turn.done.title" = "%@ finished the %@ line!";
+"basho.line.other.turn.done.message1" = "You earned another bar for your chat-meter. Complete the %@ line with %@ syllables to ear last 2 bars and unlock chat.";
+"basho.line.other.turn.done.message2" = "Timer starts when you tap play. You have 15 seconds.";
+"basho.by" = "Basho by";
+"basho.try.another" = "Let's try another game!";
+"basho.complete.sparkFlirt" = "Complete SparkFlirt";
+"basho.complete.sparkFlirt.sendNudge.tip" = "We all get a bit distracted, why not send %@, a gentle nudge to remind %@ it's his turn to play!";
+"basho.complete.congrats" = "Congrats! Chat unlocked!";
+"basho.settings.reset" = "Reset";
+"basho.settings.skip" = "Skip this time";
+"basho.settings.timesUp" = "Time's Up!";
+"basho.settings.timesUp.message" = "You failed to complete Basho. What would you like to do?";
+"basho.settings.menu.title" = "Menu";
+"basho.settings.menu.button.changeGame" = "Change Game";
+"basho.settings.menu.button.viewTutorial" = "View Tutorial";
+"basho.settings.menu.button.blockUser" = "Block User";
+"basho.settings.menu.button.blockUser.message" = "Are you sure you want to block this user?";
+"basho.settings.menu.button.endGame" = "End Game";
+"basho.settings.turnSkipped.title" = "Turn skipped";
+"basho.settings.turnSkipped.message" = "You are only allowed to skip two times.";
+"basho.settings.menu.button.endGame" = "End Game";
+"basho.settings.menu.button.endGame.message" = "Are you sure you want to end this game?";
+
+"emojiGo.emojiGo" = "EmojiGo";
+"emojiGo.emoji.limit" = "Answer with %@ emoji/s only!";
+"emojiGo.round" = "Round %@";
+"emojiGo.round.skip.notAllowed" = "Pass is not allowed this time.";
+"emojiGo.round.skip.question.error" = "You cannot skip during question phase";
+"emojiGo.round.skipped.question" = "You skipped the question!";
+"emojiGo.round.skipped.question.message" = "%@ now earns a keyboard and he will be able to ask you his own question.";
+"emojiGo.round.earned.keyboard" = "You earned a keyboard!";
+"emojiGo.round.earned.keyboard.message" = "You will be able to ask your own question since Alexandra just skipped answering the previous question.";
+"emojiGo.round.skip" = "Skip Turn";
+"emojiGo.turn.send.question" = "It's your turn send %@ a question.";
+"emojiGo.turn.send.answer" = "Answer with %@ emoji/s, you have 15 second to answer.";
+"emojiGo.turn" = "%@'s turn";
+"emojiGo.completed.title" = "You've Completed EmojiGo!";
+"emojiGo.completed.button" = "Let's try another game!";
+"emojiGo.picking.question" = "Picking a question...";
+"emojiGo.select.question.title" = "Select a question";
+"emojiGo.select.question.message" = "Please select a questiom";
+"emojiGo.texfield.placeholder.answer" = "Enter your answer..";
+"emojiGo.texfield.placeholder.question" = "Enter your question..";
+"emojiGo.question.keyboard.token" = "Use your keyboard token";
+"emojiGo.settings.reset" = "Reset";
+"emojiGo.settings.skip" = "Skip this time";
+"emojiGo.settings.pass" = "Pass";
+"emojiGo.settings.timesUp" = "Time's Up!";
+"emojiGo.settings.timesUp.message" = "You failed to complete EmojiGo. What would you like to do?";
+"emojiGo.settings.menu.title" = "Menu";
+"emojiGo.settings.menu.button.changeGame" = "Change Game";
+"emojiGo.settings.menu.button.viewTutorial" = "View Tutorial";
+"emojiGo.settings.menu.button.blockUser" = "Block User";
+"emojiGo.settings.menu.button.blockUser.message" = "Are you sure you want to block this user?";
+"emojiGo.settings.menu.button.endGame" = "End Game";
+"emojiGo.settings.turnSkipped.title" = "Turn skipped";
+"emojiGo.settings.turnSkipped.message" = "You are only allowed to skip two times.";
+"emojiGo.settings.menu.button.endGame" = "End Game";
+"emojiGo.settings.menu.button.endGame.message" = "Are you sure you want to end this game?";
+
+//Media Options
+"media.option.title" = "Add Photos";
+"media.option.camera" = "Camera";
+"media.option.photos" = "Photos";
+"media.option.instagram" = "Instagram";
+
+"media.option.minimum.title" = "Want to add more photos?";
+"media.option.minimum.description" = "Come on - you have more selfies than that! (3 image minimum)";
+"media.option.minimum.button" = "Add More";
+
+//Menu titles/tabs
+"menu.item.sparkFlirt" = "SparkFlirt";
+"menu.item.sparkFlirt.title" = "SparkFlirt Settings";
+"menu.item.sparkFlirt.subtab.balance" = "Balance";
+"menu.item.sparkFlirt.subtab.history" = "History";
+
+"menu.item.settings" = "Settings";
+"menu.item.inviteFriends" = "Invite Friends";
+"menu.item.howToUse" = "How to Use Elated";
+"menu.item.contactUs" = "Contact Us";
+"menu.item.legal" = "Legal";
+"menu.button.logout" = "Logout";
+"menu.button.profile" = "View My Profile";
+
+"menu.tabview.tab.profile" = "My Profile";
+"menu.tabview.tab.profile.subtab.about" = "About";
+"menu.tabview.tab.profile.subtab.gallery" = "Gallery";
+"menu.tabview.tab.profile.subtab.interests" = "Interest";
+"menu.tabview.tab.profile.subtab.thisorthat" = "This or That";
+
+"menu.tabview.tab.sparkFlirt" = "Spark Flirt";
+"menu.tabview.tab.sparkFlirt.subtab.invites" = "Invites";
+"menu.tabview.tab.sparkFlirt.subtab.sent" = "Sent";
+"menu.tabview.tab.sparkFlirt.subtab.sparkFlirt" = "SparkFlirt";
+"menu.tabview.tab.sparkFlirt.subtab.chat" = "Chat";
+
+"menu.tabview.tab.matches" = "Matches";
+"menu.tabview.tab.matches.subtab.bestMatches" = "Best Matches";
+"menu.tabview.tab.matches.subtab.recentMatches" = "Recent Matches";
+"menu.tabview.tab.welcome" = "Welcome to Your Matches!";
+"menu.tabview.tab.welcome.sub" = "You've answered and we've analyzed, now it's time to see the results! Check out their profiles, learn more about your matches-someone's piqued your interest? Send a SparkFlirt to invite them to play a game and see if there are flames.";
+"menu.tabview.tab.howItWorks" = "How It works!";
+"menu.tabview.tab.howItWorks.sub" = "You can check out your matches straight from the main page or through a filter. Once you found someone that sparks your interest, now the magic starts! Invite to them play SparkFlirt.
+Here’s how you can get a better look at your matches.";
+"menu.tabview.tab.favorites" = "Favorites";
+"menu.tabview.tab.favorites.subtab.myFavorites" = "Favorites";
+"menu.tabview.tab.favorites.subtab.peopleWhoFaved" = "People Who Faved Me";
+
+"menu.tabview.tab.thisOrThat" = "This or That";
+
+"book.search.title.author" = "Search Author";
+"book.search.title.title" = "Search Title";
+
+"profile.view.main" = "Profile";
+"profile.preview" = "Profile Preview";
+"profile.about.aboutMe" = "About Me";
+"profile.about.quickFacts" = "Quick Facts";
+"profile.about.photos" = "%@ Photos";
+"profile.interests.likes" = "Likes";
+"profile.interests.dislikes" = "Dislikes";
+"profile.interests.favoriteBooks" = "Favorite Books";
+"profile.interests.addMoreBooks" = "Add more Books";
+"profile.interests.favoriteArtistsSpotify" = "Favorite artists on Spotify";
+"profile.interests.favoriteArtistsSpotify.count" = "Favorite artists on Spotify %@";
+"profile.interests.addSpotify" = "Connect Spotify";
+"profile.interests.spotify.noArtists" = "(No artists Found)";
+"profile.interests.spotify.noArtists.followed" = "You have no followed artists on Spotify.";
+
+"profile.gallery.caption.placeholder" = "Write A Caption";
+
+"profile.photo" = "Profile Photo";
+
+"profile.sparkFlirt.you" = "You";
+"profile.sparkFlirt.balance" = "Balance";
+"profile.sparkFlirt.balance.remaining" = "%@ SparkFlirts";
+"profile.sparkFlirt.purchase.title" = "Out of SparkFlirts? Add more!";
+"profile.sparkFlirt.purchase" = "Purchase";
+"profile.sparkFlirt.purchase.history" = "Purchase History";
+"profile.sparkFlirt.see.all" = "See All";
+"profile.sparkFlirt.invite" = "Invite Friends";
+"profile.sparkFlirt.chat.placeholder" = "Enter a message";
+"profile.sparkFlirt.total" = "Total";
+"profile.sparkFlirt.game" = "Game: %@";
+"profile.sparkFlirt.game.last.played" = "Last played: %@";
+"profile.sparkFlirt.game.turn.theirs" = "Their Turn";
+"profile.sparkFlirt.game.turn.yours" = "Your Turn";
+"profile.sparkFlirt.game.pending" = "Please select a game";
+"profile.sparkFlirt.get.sparkflirt" = "Get SparkFlirt";
+"profile.sparkFlirt.scan" = "Scan";
+"profile.sparkFlirt.scan.qr.code" = "Scan QR Code";
+"profile.sparkFlirt.choose.from.photo.album" = "Choose from Photo Album";
+"profile.sparkFlirt.qr.code.title" = "QR Code";
+"profile.sparkFlirt.scan.qr.code.title" = "Scan QR Code to Get Your SparkFlirt";
+"profile.sparkFlirt.error.init.camera" = "Unable to initialize camera.";
+"profile.sparkFlirt.error.no.qrcode" = "Selected image has no encoded QR Code";
+
+"profile.editProfile.title" = "Edit Profile";
+"profile.editProfile.bdayTitle" = "I was born on";
+"profile.editProfile.bday.underaged" = "In order to continue using Elated app, you must be 18 years old and above.";
+"profile.editProfile.bioTitle" = "Tell us about yourself - and keep it real!";
+"profile.editProfile.occupationTitle" = "What do you do for a living?";
+"profile.editProfile.occupation.placeholder" = "Enter your job";
+"profile.editProfile.locationTitle" = "I live in";
+"profile.editProfile.location.placeholder" = "Los Angeles";
+"profile.editProfile.educationTitle" = "Did you go to college? if so, where?";
+"profile.editProfile.education.placeholder" = "LA. University";
+"profile.editProfile.languageTitle" = "What Languages do you speak fluently?";
+"profile.editProfile.language.placeholder" = "Enter Language";
+"profile.editProfile.religionTitle" = "Is the Religion an imporant factor? If so, what's your religion";
+"profile.editProfile.religion.placeholder" = "Enter Religion";
+"profile.editProfile.race.placeholder" = "Enter Race";
+"profile.editProfile.raceTitle" = "What is your Race?";
+"profile.editProfile.rangeTitle" = "Show matches within";
+"profile.editProfile.zodiacSignTitle" = "What is your Zodiac Sign";
+"profile.editProfile.datePreferenceTitle" = "I'm open to";
+"profile.editProfile.statusTitle" = "Status...";
+"profile.editProfile.genderTitle" = "I am...";
+"profile.editProfile.haveKidsTitle" = "Do I have Kids";
+"profile.editProfile.wantKidsTitle" = "Do you want Kids";
+"profile.editProfile.smokingTitle" = "What are your thoughts on smoking?";
+"profile.editProfile.smokingSubTitle" = "(You can pick more than one)";
+"profile.editProfile.heightTitle" = "What is your height?";
+"profile.editProfile.booksTitle" = "Do you like Books?";
+"profile.editProfile.booksSubTitle" = "Add your favorite books and authors, if not, you can skip this.";
+"profile.editProfile.musicTitle" = "Do you like Music?";
+"profile.editProfile.musicSubTitle" = "Add your favorite artists, if not, you can skip this.";
+
+"profile.editProfile.datingPref.casual" = "Casual Dating";
+"profile.editProfile.datingPref.soulmate" = "A Potential Soul Mate";
+"profile.editProfile.datingPref.notSure" = "I am not sure";
+
+"profile.editProfile.status.single" = "Single";
+"profile.editProfile.status.separated" = "Divorsed";
+"profile.editProfile.status.separatedWithKids" = "Separated With Kids";
+"profile.editProfile.status.married" = "Married";
+"profile.editProfile.status.widowed" = "Widowed";
+"profile.editProfile.status.other" = "Other";
+
+"profile.editProfile.gender.female" = "Female";
+"profile.editProfile.gender.bisexual" = "Bisexual";
+"profile.editProfile.gender.male" = "Male";
+"profile.editProfile.gender.gay" = "Gay";
+"profile.editProfile.gender.lesbian" = "Lesbian";
+"profile.editProfile.gender.transgender" = "Transgender";
+"profile.editProfile.gender.other" = "Other";
+
+"profile.editProfile.wantKids.noWay" = "No way, I love my free time.";
+"profile.editProfile.wantKids.maybe" = "I can see it... maybe.";
+"profile.editProfile.wantKids.imFine" = "I'm fine if you already have your own.";
+"profile.editProfile.wantKids.interested" = "I can't imagine a future without my own.";
+
+"profile.editProfile.haveKids.nope" = "Nope";
+"profile.editProfile.haveKids.companions" = "My kids are my constant companions.";
+"profile.editProfile.haveKids.minions" = "My minions don't live with me.";
+"profile.editProfile.haveKids.halfHalf" = "50/50 custody";
+
+"profile.editProfile.smoking.notOpen" = "It's hard for me.";
+"profile.editProfile.smoking.never" = "I'm not smoke compatible.";
+"profile.editProfile.smoking.four20" = "420 is perfect as is.";
+"profile.editProfile.smoking.ocational" = "I take ocational puff.";
+"profile.editProfile.smoking.fine" = "I'm alright with smokers.";
+"profile.editProfile.smoking.often" = "Smoking is a way of life.";
+"profile.editProfile.smoking.welcome" = "Smokers welcome here.";
+
+"profile.editProfile.quickFacts.birthday" = "Birthday";
+"profile.editProfile.quickFacts.height" = "Height";
+"profile.editProfile.quickFacts.occupation" = "Occupation";
+"profile.editProfile.quickFacts.education" = "Studied at";
+"profile.editProfile.quickFacts.language" = "I speak";
+"profile.editProfile.quickFacts.religion" = "Religon";
+"profile.editProfile.quickFacts.zodiac" = "Zodiac Sign";
+"profile.editProfile.quickFacts.location" = "Location";
+"profile.editProfile.quickFacts.ageRange" = "Age Range";
+"profile.editProfile.quickFacts.distance" = "Distance";
+"profile.editProfile.quickFacts.gender" = "I am..";
+"profile.editProfile.quickFacts.race" = "I am..";
+"profile.editProfile.quickFacts.status" = "Status";
+"profile.editProfile.quickFacts.datingPreference" = "Open To";
+"profile.editProfile.quickFacts.kids" = "Do I have kids?";
+"profile.editProfile.quickFacts.kidPreference" = "Do you want Kids?";
+"profile.editProfile.quickFacts.smokingPreference" = "Smoking Preference";
+"profile.editProfile.quickFacts.dringkingPreference" = "Drinking Preference";
+
+"profile.editProfile.books.searchBook" = "Search Book";
+"profile.editProfile.books.searchAuthor" = "Search Book";
+"profile.editProfile.books.searchTitle" = "Search Title";
+
+"createProfile.title" = "Create Your Profile";
+"createProfile.firstName.placeholder" = "First Name";
+"createProfile.lastName.placeholder" = "Last Name";
+"createProfile.photo.addCaption" = "Add a Caption";
+"createProfile.note" = "Note: Your profile displays just your first name and last initial";
+"createProfile.final.message" = "Creating your profile...";
+"createProfile.success.title" = "Great Job!
+You look marvelous.";
+"createProfile.success.message" = "Time for This or That, our way of learning about your true self to find your ideal match.";
+
+"addPhotos.title" = "Add Photos";
+
+"splash.title" = "Meet. Play. Connect.";
+"splash.signupEmail" = "Sign Up with Email";
+"splash.signin" = "Sign In";
+"splash.alreadyHaveAccount" = "Already have an Account?";
+"splash.orMessage" = "Or continue with";
+"splash.terms.conditions" = "By signing up, I accept Elated’s Terms of Service and Privacy Policy.";
+
+"sparkFlirt.notice.title.1" = "SparkFlirt credit earned!";
+"sparkFlirt.notice.subTitle.1" = "You earned a free SparkFlirt credit since you shared the gameplay on Instagram.";
+"sparkFlirt.notice.balance.1" = "%@ SparkFlirt Balance";
+"sparkFlirt.notice.subTitle.2" = "Wow! it does pay to open up and reveal the true self! You earned a SparkFlirt since you answered more questions on ToT.";
+"sparkFlirt.notice.subTitle.3" = "You got free SparkFlirt since you answered 10 questions on This or That";
+"sparkFlirt.notice.subTitle.4" = "Congrats! Your friends do trust you to make an amazing recommendation! They just completed their profile.";
+"sparkFlirt.notice.subTitle.5" = "You’ve done it right! Have a SparkFlirt on us! ";
+
+"sparkFlirt.play.title.1" = "Hey, it’s your turn to play the game.";
+"sparkFlirt.play.subTitle.1" = "%@ Responded to the game.";
+"sparkFlirt.play.continue.playing" = "Continue Playing";
+
+"sparkFlirt.invite.title.1" = "Hey, it’s your turn to play the game.";
+"sparkFlirt.invite.sub.1" = "After 48 hours, this SparkFlirt invite will expire. If %@. doesn’t respond, invite someone else.";
+"sparkFlirt.empty.invites" = "No invites to show";
+"sparkFlirt.empty.sent" = "No sent SparkFlirt to show";
+
+"sparkFlirt.game.options.title" = "Choose your Game";
+"sparkFlirt.game.options.message" = "Select a game to learn more about your match through creative collaboration!";
+"sparkFlirt.game.player.1" = "Player 1";
+"sparkFlirt.game.player.2" = "Player 2";
+"sparkFlirt.game.options.storyShare" = "How similar is your sense of humor and thought process? Find out with Storyshare.";
+"sparkFlirt.game.options.emojiGo" = "Try out your visual seduction skills through emojis. It’s a great way to check that you have compatible sense of humor.";
+"sparkFlirt.game.options.basho" = "See how in sync your match and your thinking is! Collaborate to make a perfect Basho.";
+
+"sparkFlirt.send.invite.to" = "Send %@ a SparkFlirt!";
+"sparkFlirt.send.invite.note" = "How it works? Pull down on the button and release to send your SparkFlirt.";
+"sparkFlirt.first.invite.sent.success.title" = "Congratulation, you have just sent your first SparkFlirt!";
+"sparkFlirt.invite.sent.success.title" = "SparkFlirt sent to %@";
+"sparkFlirt.first.invite.received.title" = "You've got your first SparkFlirt from %@!";
+"sparkFlirt.invite.received.title" = "%@ has sent you a SparkFlirt!";
+"sparkFlirt.invite.received.intro.title" = "Wow, $@! %@ must really like you, you're their first SparkFlirt invite.";
+"sparkFlirt.invite.sent.success.note" = "After 48 hours, this SparkFlirt invite will expire. If %@ doesn't respond, invite someone else.";
+"sparkFlirt.invite.received.note" = "Respond within 48 hours to start discovering more about them!";
+"sparkFlirt.tutorial.message.1" = "Has someone piqued your interest? Send a SpartFlirt to invite them to choose a game to see what kind of chemistry you have.";
+"sparkFlirt.tutorial.message.2" = "Once you send that invite, your match selects the game. See where that one little invitation can lead you.";
+
+"sparkFlirt.iceBroken" = "Ice broken!\nNow you can chat.";
+"sparkFlirt.iceBroken.subtitle" = "You’ve successfully SparkFllirted! Now you can get to know your match a lot better!";
+"sparkFlirt.button.goto.sparkflirt" = "Go to SparkFlirt";
+"sparkFlirt.button.scan.more" = "Scan More";
+"sparkFlirt.title.credit.added" = "SparkFlirt credit added!";
+"sparkFlirt.credit.added" = "%@ SparkFlirt credit added to you balance.
+Here’s your total SparkFlirt:";
+"sparkFlirt.select.game" = "Select a Game Now";
+"sparkFlirt.game.pending.title" = "%@ is waiting!
+Please select a game";
+"sparkFlirt.game.pending.message" = "Reminder from %@ to select a game so that both of you can start playing.";
+"sparkFlirt.invite.accepted.title" = "Congratulations! %@ accepted your SparkFlirt Invite!";
+"sparkFlirt.remind.button" = "Remind %@";
+"sparkFlirt.inviter.reminder.select.game.title" = "%@ did not yet select any game to play.";
+"sparkFlirt.inviter.reminder.select.game.message" = "If you remind %@ we will send %@ a notification for %@ to select a game.";
+
+"login.title" = "Login";
+
+"signup.title" = "Create your Elated account";
+"signup.title.email" = "Supply your Email";
+"signup.createAccount" = "Create Account";
+"signup.validation.password.rule.1" = "Your password must be at least 8 characters";
+"signup.validation.password.rule.2" = "Contain at least both upper and lowercase alphabetic characters";
+"signup.validation.password.rule.3" = "Must contain at least one and special character";
+"signup.validation.email.msg" = "Invalid Email";
+"signup.validation.email.match.msg" = "Email doesn't match. Try again?";
+"signup.validation.password.match.msg" = "Password doesn't match. Try again?";
+"signup.validation.confirmation.code.msg" = "Confirmation code doesn’t match.";
+"signup.updates" = "Yes! I want Elated updates";
+"signup.email.placeholder" = "Enter email address";
+"signup.confirmEmail.placeholder" = "Confirm email address";
+"signup.password.placeholder" = "Enter Password";
+"signup.confirmPassword.placeholder" = "Confirm Password";
+"signup.confirmation.code.title" = "Enter confirmation code";
+"signup.confirmation.code.join.elated" = "Join Elated";
+"signup.confirmation.code.body1" = "We've emailed a confirmation code to:";
+"signup.confirmation.code.body2" = "Please check your email, enter it below to verify your account.";
+"signup.confirmation.code.count" = "Your code will expire in %@ seconds…";
+"signup.confirmation.code.resend" = "Didn’t get the code yet?";
+"signup.confirmation.code.resend.tappable" = "Resend code";
+"signup.confirmation.code.resent" = "Successfully sent OTP to your email.";
+"signup.confirmation.code.expired" = "Token expired, resend now?";
+
+"mobile.otp.title" = "What's is your phone number?";
+"mobile.otp.subTitle" = "For Elated to protect our community, we require verified phone numbers for all members.";
+"mobile.otp.bottomTitle" = "Elated will send you a text message with a verification code. Message and data rates may apply.";
+
+"mobile.otp.confirm.title" = "Enter verification code";
+"mobile.otp.confirm.subTitle" = "To verify your phone number we have sent you a text message. Please enter the verification code below.";
+
+"legal.privacy" = "Privacy Policy";
+"legal.terms" = "Terms of Service";
+
+"howToUse.thisOrThat" = "This or That Tutorial";
+"howToUse.sparkFlirt" = "SparkFlirt Tutorial";
+"howToUse.basho" = "Basho Tutorial";
+"howToUse.storyShare" = "StoryShare Tutorial";
+"howToUse.emoji" = "Emoji Tutorial";
+"howToUse.share" = "Share";
+"howToUse.share.all" = "Share All Tutorials";
+
+"storyshare.title" = "StoryShare";
+"storyshare.howtoplay.instruction" = "StoryShare is a collaborative game that inspires bonding through creativity. \n\nTake turns adding two-words to a full sentence. Your font color will be different from your matches' font color. \n\nLet's see if you can finish each other's ... sandwiches!";
+"storyshare.pickyourcolor" = "Pick your text color:";
+
+//MARK: - StoryShare
+"storyshare.color.oneSet" = "Your ink is %@.";
+"storyshare.color.allSet" = "Your ink is %@ and %@ ink is %@.";
+"storyshare.phrase.reminder" = "Remember \"and\", \"but\", \"the\", and \"to\" and other simple words don't count.";
+"storyshare.phrase.other.finished.line" = "%@ finished the %@ line!";
+"storyshare.phrase.yourTurn.finished.line" = "You finished the %@ line!";
+"storyshare.phrase.yourTurn.message" = "Now it's your turn, jump back in and add your two line.";
+"storyshare.other.turn" = "%@'s turn!";
+"storyshare.your.turn" = "It's your turn!";
+"storyshare.period" = "Period (.)";
+"storyshare.enter" = "Enter";
+"storyshare.type.here" = "  Type your story here...";
+
+
+//MARK: - Common SparkFlirt Logic
+"sparkFlirt.invalid.game.data" = "Invalid Game Data.";
+
+//MARK: - EmojiGo
+"emojigo.howtoplay.instruction" = "This is a time-based response game where you answer with emojis.
+
+We have the questions, you and your match have 15 seconds to answer them.
+
+Every time the clock resets, the number of emojis you can use to answer the question goes up! The first round, you only get one emoji, then the clock stops. By the fourth round, you’ll need to add 4 emojis to stop the clock.";
+
+//MARK: - Basho
+"basho.howtoplay" = "How to Play Basho";
+"basho.howtoplay.instruction" = "Play Basho to build a Basho with your partner. Add one word at a time until the poem is complete.
+
+Once the first player adds the first word, each player will have 15 seconds to finish the line.
+
+Each line has a specific number of syllables –
+5 for the first line
+7 for the second line
+5 for the third line.
+
+Don’t worry – we’ll help you.
+Finish one round of Basho to unlock the chat room.";
+
+"contactUs.suggest" = "Suggest an idea";
+"contactUs.question" = "Got a question?";
+"contactUs.reportTechnical" = "Report a Technical issue";
+"contactUs.reportBilling" = "Report a billing issue";
+"contactUs.message.placeholder" = "Write A Message";
+"contactUs.select" = "Select";
+"contactUs.send" = "Send";
+
+"invite.title" = "Invite Friends";
+"invite.main.title" = "Invite friends via..";
+"invite.main.sms" = "SMS";
+"invite.main.email" = "Email";
+"invite.main.whatsApp" = "WhatsApp";
+"invite.main.weChat" = "weChat";
+"invite.main.other" = "other..";
+
+"invite.main.share.link" = "Hey! Check out this awesome dating app, you will be Elated! \n https://www.elated.io";
+"invite.main.sms.error" = "Can't share using SMS";
+"invite.main.mail.error" = "No email account found. You can add your mail account on settings.";
+"invite.main.whatsapp.error" = "No WhatsApp Found.";
+"invite.main.wechat.error" = "No WeChat Found.";
+
+//MARK: - Signin
+"signin.email.placeholder" = "Enter email address";
+"signin.password.placeholder" = "Enter password";
+"signin.forgot.password.title" = "Invalid login credentials";
+"signin.forgot.password.message" = "Do you want to reset your password?";
+"signin.forgot.password" = "Forgot Password?";
+"signin.signin" = "Signin";
+
+"permission.alert.title" = "Access to %@ is turned off";
+"permission.photo.alert.message" = "Please allow photo access in your device settings to browse photos from your photo library and save photos to your camera roll.";
+"permission.location.alert.message" = "Please allow location in your device settings to detect your current location.";
+"permission.camera.alert.message" = "Please allow camera access in your device settings to take pictures with the camera.";
+
+//MARK: - Forgot Password
+"forgotpassword.title" = "Forgot your password?";
+"forgotpassword.description" = "Enter the email address related to your Elated account, and we’ll send you a temporary password. Once you login with the temporary password, you can save a new password.";
+"forgotpassword.email.placeholder" = "Enter your email address";
+"forgotpassword.email.error.message" = "We don’t have the email on record.\nPlease try again or create a new account.";
+"forgotpassword.set.new.password" = "Set New Password";
+"forgotpassword.set.button" = "Set Password";
+"forgotpassword.success.message" = "Successfully sent verification link to your email.";
+"resetPassword.success.message" = "Successfully set new password.";
+
+//MARK: - Settings
+"settings.header.title.notifications" = "Notifications";
+"settings.header.title.account" = "Account";
+"settings.cell.title.match" = "Match me with";
+"settings.cell.title.age" = "Seeking ages from";
+"settings.cell.title.distance" = "Distance";
+"settings.cell.title.location" = "Location";
+"settings.cell.title.notification" = "Notification Frequency";
+"settings.cell.title.new.match" = "New Match";
+"settings.cell.title.new.message" = "New Message";
+"settings.cell.title.sparkflirt" = "SparkFlirt Invite";
+"settings.cell.title.favorited" = "Favorited";
+"settings.cell.title.nudge" = "Nudge";
+"settings.cell.title.pause" = "Pause My Account";
+"settings.cell.title.delete" = "Delete Account";
+
+"notification.frequency.forAnHour" = "For an Hour";
+"notification.frequency.untilEvening" = "Until this Evening";
+"notification.frequency.untilMorning" = "Until Morning";
+"notification.frequency.forAWeek" = "For a Week";
+
+"settings.edit.title" = "Edit Settings";
+"settings.save.button" = "Save";
+"settings.gender.title" = "Match me with...";
+"settings.gender.other" = "Other";
+"settings.gender.male" = "Male";
+"settings.gender.female" = "Female";
+"settings.age.title" = "I’m seeking ages from...";
+"settings.age.to" = "To";
+"settings.distance.title" = "Show matches within";
+"settings.distance.miles.abbreviation" = "mi";
+"settings.distance.kilometers.abbreviation" = "km";
+"settings.location.title" = "Match Location";
+"settings.location.nearme" = "Near Me";
+"settings.location.other" = "Other Location";
+"settings.location.address" = "Address";
+"settings.location.zipcode" = "Zip Code";
+"settings.notification.title" = "Notification Frequency";
+"settings.notification.title.pause" = "Do you really want to pause your account?";
+"settings.notification.message.pause" = "You can just log out your account in case you just want to take a break and login later.";
+"settings.notification.cancel.pause" = "Logout my account";
+"settings.notification.confirm.pause" = "Pause my account";
+"settings.notification.title.delete" = "Do you really want to delete your account?";
+"settings.notification.message.delete" = "You could just pause your account in case you want to tray Elated again later.";
+"settings.notification.cancel.delete" = "Pause my account";
+"settings.notification.confirm.delete" = "Delete my account";
+
+//MARK: -  Onboarding
+"alert.title.photo" = "Want to add more photos?";
+"alert.body.photo" = "Come on – you have more selfies than that! (3 image minimum)";
+"alert.title.fields" = "";
+"alert.message.fields" = "Please fill out the fields.";
+"alert.title.language" = "";
+"alert.message.language" = "Please select languages.";
+"alert.title.religion" = "";
+"alert.message.religion" = "Please select religion";
+"alert.title.race" = "";
+"alert.message.race" = "Please select race";
+"alert.title.zodiac" = "";
+"alert.message.zodiac" = "Please select zodiac sign";
+
+//MARK: Sample texts delete on launch
+"sample.profile" = "Hi! You can call me Alex. I’m a 23-year-old Fashion Designer who enjoys picnic, shopping and coffee. I am is fashionable and creative, but can also be very funny and loud. Hi! You can call me Alex. I’m a 23-year-old Fashion Designer who enjoys picnic, shopping and coffee. I am is fashionable and creative, but can also be very funny and loud.I am is fashionable and creative, but can also be very funny and loud. Hi! You can call me Alex. I’m a 23-year-old Fashion Designer who enjoys picnic, shopping and coffee. I am is fashionable and creative, but can also be very funny and loud. I am is fashionable and creative, but can also be very funny and loud. Hi! You can call me Alex. I’m a 23-year-old Fashion Designer who enjoys picnic, shopping and coffee. I am is fashionable and creative, but can also be very funny and loud. I am is fashionable and creative, but can also be very funny and loud. Hi! You can call me Alex. I’m a 23-year-old Fashion Designer who enjoys picnic, shopping and coffee. I am is fashionable and creative, but can also be very funny and loud. I am is fashionable and creative, but can also be very funny and loud. Hi! You can call me Alex. I’m a 23-year-old Fashion Designer who enjoys picnic, shopping and coffee. I am is fashionable and creative, but can also be very funny and loud.";
+
+//MARK: This or That
+"this.or.that.tutorial.title" = "This or That Tutorial";
+"this.or.that.welcome.title" = "Time for This or That. Our way of learning about your true self to find your ideal match.";
+"this.or.that.welcome.body" = "Now let's answer a few basic questions to improve your matches.";
+"this.or.that.popup.title" = "How’s it Work";
+"this.or.that.popup.body" = "Let us know what you like, and we'll start finding you best matches.\n\nInstead of answering questions, we've got something interactive for you.\n\nHave a bit of fun while improving the algorithm.\n\nHere's how it works:\nFlick, tap, hold, pop the bubbles on the screen.";
+"this.or.that.popup.button" = "Let's see it in action";
+"this.or.that.tutorial.animation.title1" = "You can start with simple flick. Flick a bubble to the left if you disagree with it, to the right if you agree.";
+"this.or.that.tutorial.choice1" = "I love caring people";
+"this.or.that.tutorial.choice2" = "I hate corruption";
+"this.or.that.tutorial.choice3" = "I support LGBT";
+"this.or.that.tutorial.animation.title2" = "If you agree, pop the bubble.";
+"this.or.that.tutorial.animation.title3" = "If you agree, tap and hold the bubble to make it burst.";
+"this.or.that.tutorial.animation.title4" = "If you absolutely agree, tap and hold the bubble for a little longer to make it burst spectacularly";
+"this.or.that.tutorial3.choice1" = "I like vegetables";
+"this.or.that.tutorial3.choice2" = "I hate traffic";
+"this.or.that.tutorial3.choice3" = "I love caring people";
+"this.or.that.tutorial3.choice4" = "I hate corruption";
+"this.or.that.tutorial3.choice5" = "I support LGBT";
+"this.or.that.done.tutorial.title" = "Get More Matches.\nGet Better Matches.";
+"this.or.that.done.tutorial.body" = "Burst some bubbles to reveal more about yourselves";
+
+"this.or.that.tutorial.instruction.flickright" = "Flick right if you agree with a bubble question";
+"this.or.that.tutorial.instruction.flickleft" = "Flick a bubble to the left if you disagree with it";
+"this.or.that.tutorial.instruction.tap" = "Pop it!";
+"this.or.that.tutorial.instruction.taphold" = "Tap and hold";
+"this.or.that.tutorial.instruction.tapholdhold" = "Press and hold the bubble until both circle are filled.";
+
+//MARK: This or That
+"this.or.that.more.title" = "Answer more questions or done for now!";
+"this.or.that.more.body" = "Sure – you could stop now…\nBut if you keep going, you’ll have more fun with your matches.";
+"this.or.that.answer.more" = "Answer more questions";
+"this.or.that.match.me" = "Match me now";
+
+//MARK: Favorite
+"favorites.favored.someone" = "Someone favorited you!
+Unlock to find out!";
+"favorites.favored.unlock" = "Pay %@ to unlock who favorited you.";
+"favorites.button.unlock" = "Unlock and Pay";
+
+//MARK: Matches
+"matches.more.questions.title" = "Answer more questions help us to find you a perfect match";
+"matches.loading" = "Loading your matches...";
+
+//MARK: Create Profile
+"create.profile.title" = "Creating your profile...";
+
+//MARK: Tooltips
+//Profile
+"tooltip.profile.edit" = "Tap to edit your profile";
+//SparkFlirt
+"tooltip.sparkflirt.add.more" = "Tap to add more SpartFlirts";
+"tooltip.sparkflirt.accept.invite" = "Tap to accept your SparkFlirt Invite";
+"tooltip.sparkflirt.add.favorites" = "Tap to add to favorites";
+"tooltip.spartflirt.cancel.invite" = "Tap to cancel invitation";
+"tooltip.sparkflirt.send.nudge" = "Tap to send a nudge";
+"tooltip.sparkflirt.pulldown.release" = "To send, pull down and release!";
+//This or That
+"tooltip.tot.instruction.reminder" = "Remember if you agree with the question, tap, hold, pop, flick to the right and if you disagree, flick to the left.";
+"tooltip.tot.instruction.shuffle" = "If you need to shuffle the ranking orders, hold and drag to any numerical order.";
+//Basho
+"tooltip.basho.instruction.timer" = "The timer starts after the first player enters their first word. Each player then has 15 seconds to complete their turn.";
+"tooltip.basho.instruction.toolbar" = "You have two choices. We’ll recommend a word based on the number of syllables left on the line. You can also start typing if you would prefer to select a word based on the first letter or letters.";
+"tooltip.basho.instruction.word.suggestion" = "Word suggestions will appear here.";
+"tooltip.basho.instruction.dictionary" = "Hold the word to view dictionary.";
+"tooltip.basho.instruction.search.word" = "Tap here to search word alphabetically.";
+"tooltip.basho.instruction.drag.drop" = "Drag and drop any word of your choice to your textbox.";
+"tooltip.basho.instruction.syllable.count" = "Tap here to filter words by syllable count";
+"tooltip.basho.instruction.choose.syllable.count" = "Choose syllables count";
+//EmojiGo
+"tooltip.emojigo.instruction.timer" = "You have 15 seconds to answer the question.";
+"tooltip.emojigo.instruction.select.question" = "Select one of the questions you are burning to know about your match. Click Go.";
+"tooltip.emojigo.instruction.sent.question" = "Your question will be sent and your SparkFlirt will answer back with an emoji?";
+"tooltip.emojigo.instruction.your.turn" = "When it’s your turn on the next round, you will answer their question with an Emoji. Number of Emoji depends on every round.";
+"tooltip.emojigo.instruction.skip.turn" = "You can also pass their question if you don’t feel like answering it. This will give them a keyboard token and they can ask you their own question.";
+//StoryShare
+"tooltip.storyshare.instruction.invited" = "Yay you have been invited to play SprkFlirt now add the first two words. And if you're the second player, wait to see what your match says, then add the two words of your own.";
+"tooltip.storyshare.instruction.dictionary" = "Double-tap a word to view the dictionary.";
+"tooltip.storyshare.instruction.enter" = "Press enter when you are done.";
+"tooltip.storyshare.instruction.period" = "To end the game type a period.";
+//Common
+"tooltip.common.instruction.play" = "Tap Play to get started!";
+
+//MARK: In-App Purchase
+"inapp.purchase.device.not.allowed" = "The device is not allowed to make In-App Purchase.";
+
+//MARK: In-App Notification
+"inapp.notification.title" = "Notifications";
+
+"inapp.notification.messsage.game.canceled.emojigo" = "EmojiGo game was canceled.";
+"inapp.notification.messsage.game.completed.emojigo" = "EmojiGo game completed!";
+"inapp.notification.messsage.game.turn.emojigo" = "It's now your turn on EmojiGo.";
+"inapp.notification.messsage.favorites.added" = "%@ added you to their favorites.";
+"inapp.notification.messsage.favorites.blurred.added" = "Someone added you to their favorites.";
+"inapp.notification.messsage.sparkflirt.invite" = "%@ has sent you a SparkFlirt Invite.";
+"inapp.notification.messsage.sparkflirt.invite.accepted" = "%@ accepted your SparkFlirt Invite!";
+
+
+"inapp.notification.alert.sparkflirt.invite.title" = "SparkFlirt Invite";
+"inapp.notification.alert.sparkflirt.invite.expired.message" = "The SparkFlirt invitation from %@ has expired.";
+"inapp.notification.alert.sparkflirt.invite.accepted.message" = "You have accepted this SparkFlirt invitation.";
+"inapp.notification.alert.sparkflirt.invite.declined.message" = "You have declined this SparkFlirt invitation.";

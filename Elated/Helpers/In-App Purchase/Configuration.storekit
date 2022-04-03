@@ -1,0 +1,74 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "B1A41918",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "1 SparkFlirt",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "sparkflirt.invite.credit.1",
+      "referenceName" : "1 SparkFlirt Credit",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1AFF2253",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "3 SparkFlirts",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "sparkflirt.invite.credit.3",
+      "referenceName" : "3 SparkFlirt Credit",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "1EA1C0E9",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "5 SparkFlirts",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "sparkflirt.invite.credit.5",
+      "referenceName" : "5 SparkFlirt Credit",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "5A6C5849",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "10 SparkFlirts",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "sparkflirt.invite.credit.10",
+      "referenceName" : "10 SparkFlirt Credit",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}

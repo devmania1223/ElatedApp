@@ -1,0 +1,60 @@
+
+{
+    "invitee_reset" : 0,
+    "invitee" : {
+        "first_name" : "Sam",
+        "avatar" : {
+            "updated_at" : "2021-08-25T15:33:14+0000",
+            "source" : null,
+            "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/69011f5c-930a-4976-bada-f20f408b06ad.jpeg",
+            "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/5ea5d898-7052-41a8-98b4-939b7923271b.jpeg",
+            "pk" : 392,
+            "caption" : "",
+            "order" : 1,
+            "user" : 264
+        },
+        "last_name" : "West",
+        "id" : 264
+    },
+    "turn_type" : "answer",
+    "modified" : "2021-10-14T09:22:06+0000",
+    "inviter_skips" : 0,
+    "created" : "2021-10-14T07:40:42+0000",
+    "sparkflirt" : 1218,
+    "inviter_reset" : 0,
+    "id" : 10,
+    "current_round" : 1,
+    "is_keyboard" : false,
+    "inviter" : {
+        "first_name" : "Alex",
+        "avatar" : {
+            "order" : 1,
+            "source" : null,
+            "image" : "",
+            "user" : 0,
+            "caption" : "",
+            "pk" : 444,
+            "thumbnail" : "",
+            "updated_at" : "2021-10-13T07:35:22+0000"
+        },
+        "last_name" : "Smith",
+        "id" : 0
+    },
+    "emojigo" : [
+        {
+            "question" : {
+                "text" : "What's the FIRST country you visited?",
+                "id" : 6,
+                "user" : 264
+            },
+            "answer" : {
+              "user" : 0,
+              "text" : "🇬🇧"
+            },
+            "round" : 1
+        }
+    ],
+    "game_status" : "STARTED",
+    "current_player_turn" : 0,
+    "invitee_skips" : 0
+}

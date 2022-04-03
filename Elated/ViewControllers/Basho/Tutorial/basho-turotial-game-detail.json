@@ -1,0 +1,81 @@
+{
+    "invitee" : {
+      "id" : 264,
+      "avatar" : {
+        "updated_at" : "2021-08-25T15:33:14+0000",
+        "source" : null,
+        "pk" : 392,
+        "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/5ea5d898-7052-41a8-98b4-939b7923271b.jpeg",
+        "order" : 1,
+        "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/69011f5c-930a-4976-bada-f20f408b06ad.jpeg",
+        "caption" : "",
+        "user" : 264
+      },
+      "last_name" : "Tester",
+      "first_name" : "Rey"
+    },
+    "created" : "2021-09-10T17:21:14+0000",
+    "inviter" : {
+      "id" : 238,
+      "avatar" : {
+        "updated_at" : "2021-06-23T03:03:21+0000",
+        "source" : null,
+        "pk" : 189,
+        "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/4f4efaa3-5835-42f9-9194-dbc9732adb51.jpeg",
+        "order" : 1,
+        "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/37202ddc-eef9-4793-9d75-ec14551289dc.jpeg",
+        "caption" : "",
+        "user" : 238
+      },
+      "last_name" : "Martin",
+      "first_name" : "Alex"
+    },
+    "inviter_skips" : 0,
+    "id" : 13,
+    "invitee_reset" : 0,
+    "invitee_skips" : 0,
+    "modified" : "2021-09-10T17:21:14+0000",
+    "current_line" : 1,
+    "basho" : null,
+    "current_player_turn" : 264,
+    "inviter_reset" : 0,
+    "other_user" : {
+      "id" : 238,
+      "last_name" : "Martin",
+      "first_name" : "Alex",
+      "images" : [
+        {
+          "caption" : "",
+          "source" : null,
+          "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/37202ddc-eef9-4793-9d75-ec14551289dc.jpeg",
+          "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/4f4efaa3-5835-42f9-9194-dbc9732adb51.jpeg",
+          "pk" : 189,
+          "updated_at" : "2021-06-23T03:03:21+0000",
+          "user" : 238,
+          "order" : 1
+        },
+        {
+          "caption" : "",
+          "source" : null,
+          "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/42afb2f9-4047-4588-846d-d3934ec19f3e.jpeg",
+          "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/833d20a3-ec69-4595-ade1-2482bca48941.jpeg",
+          "pk" : 188,
+          "updated_at" : "2021-06-23T03:03:21+0000",
+          "user" : 238,
+          "order" : 2
+        },
+        {
+          "caption" : "",
+          "source" : null,
+          "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/f7914cf0-a0b2-444b-b668-02b9e245d197.jpeg",
+          "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/60dd42a9-5b82-49e5-a148-7ad977900e8e.jpeg",
+          "pk" : 187,
+          "updated_at" : "2021-06-23T03:03:21+0000",
+          "user" : 238,
+          "order" : 3
+        }
+      ]
+    },
+    "sparkflirt" : 875,
+    "current_syllables_count" : null
+}

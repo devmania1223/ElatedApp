@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Book.ttf">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OnboardingPageView" customModule="Elated" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzZ-gz-dHg">
+                    <rect key="frame" x="22" y="161.33333333333334" width="370" height="28.666666666666657"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xY9-to-abS">
+                    <rect key="frame" x="22" y="199" width="370" height="23.666666666666657"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                    <color key="textColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6zc-E5-aaQ" customClass="AnimationView" customModule="Lottie">
+                    <rect key="frame" x="0.0" y="257.66666666666669" width="414" height="220.66666666666669"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Assets_Graphics_Bottom_Curve" translatesAutoresizingMaskIntoConstraints="NO" id="sjf-WI-C6C">
+                    <rect key="frame" x="-5" y="603" width="423" height="135"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="135" id="RT4-Xv-iv8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kTx-Sb-RTw">
+                    <rect key="frame" x="28" y="503.33333333333331" width="358" height="23.666666666666686"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                    <color key="textColor" red="0.29411764709999999" green="0.29411764709999999" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6p-6e-kdr">
+                    <rect key="frame" x="57" y="651.66666666666663" width="300" height="50"/>
+                    <color key="backgroundColor" name="cl_main"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="LEL-LQ-w0w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="16"/>
+                    <state key="normal" title="Get Started">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="didPressGetStartedButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="d36-ZO-zOe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="kTx-Sb-RTw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="28" id="17p-D2-Hgs"/>
+                <constraint firstItem="sjf-WI-C6C" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kTx-Sb-RTw" secondAttribute="bottom" constant="5" id="2e3-2j-cVB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="q6p-6e-kdr" secondAttribute="trailing" constant="57" id="2re-nA-1rL"/>
+                <constraint firstItem="xY9-to-abS" firstAttribute="top" secondItem="kzZ-gz-dHg" secondAttribute="bottom" constant="9" id="3pn-G3-Z8w"/>
+                <constraint firstItem="kzZ-gz-dHg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" constant="45" id="3sl-Mp-VGg"/>
+                <constraint firstItem="6zc-E5-aaQ" firstAttribute="top" secondItem="xY9-to-abS" secondAttribute="bottom" constant="35" id="Bh3-Ab-CYb"/>
+                <constraint firstItem="kzZ-gz-dHg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="22" id="CJB-h3-cy3"/>
+                <constraint firstItem="xY9-to-abS" firstAttribute="trailing" secondItem="kzZ-gz-dHg" secondAttribute="trailing" id="Pmz-EZ-QX6"/>
+                <constraint firstItem="6zc-E5-aaQ" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="Ybw-OO-oHT"/>
+                <constraint firstItem="sjf-WI-C6C" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="-5" id="ckx-TE-DDY"/>
+                <constraint firstItem="q6p-6e-kdr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="57" id="csq-RR-Tel"/>
+                <constraint firstItem="kTx-Sb-RTw" firstAttribute="top" secondItem="6zc-E5-aaQ" secondAttribute="bottom" constant="25" id="dV3-JQ-fSQ"/>
+                <constraint firstItem="sjf-WI-C6C" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" constant="2" id="gTM-B7-XcJ"/>
+                <constraint firstItem="6zc-E5-aaQ" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.3" id="hnq-4U-vwY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="kTx-Sb-RTw" secondAttribute="trailing" constant="28" id="mZn-gc-OOg"/>
+                <constraint firstItem="q6p-6e-kdr" firstAttribute="centerY" secondItem="sjf-WI-C6C" secondAttribute="centerY" constant="6" id="niv-i9-0cU"/>
+                <constraint firstItem="sjf-WI-C6C" firstAttribute="right" secondItem="vUN-kp-3ea" secondAttribute="right" constant="4" id="orP-qc-4Iq"/>
+                <constraint firstItem="6zc-E5-aaQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="u2I-gu-DEx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="kzZ-gz-dHg" secondAttribute="trailing" constant="22" id="vKd-ql-dW7"/>
+                <constraint firstItem="6zc-E5-aaQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="xal-aC-Yan"/>
+                <constraint firstItem="xY9-to-abS" firstAttribute="leading" secondItem="kzZ-gz-dHg" secondAttribute="leading" id="zS9-DY-NSR"/>
+            </constraints>
+            <connections>
+                <outlet property="animationView" destination="6zc-E5-aaQ" id="ezb-mQ-TT3"/>
+                <outlet property="bodyLabel" destination="xY9-to-abS" id="xw0-Al-zWe"/>
+                <outlet property="bottomLabel" destination="kTx-Sb-RTw" id="rrD-g1-Nvi"/>
+                <outlet property="getStartedButton" destination="q6p-6e-kdr" id="zfU-T4-Bx6"/>
+                <outlet property="titleLabel" destination="kzZ-gz-dHg" id="mCn-U1-VlO"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="105.97826086956522"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="6zc-E5-aaQ"/>
+    </designables>
+    <resources>
+        <image name="Assets_Graphics_Bottom_Curve" width="500" height="179"/>
+        <namedColor name="cl_main">
+            <color red="0.50196078431372548" green="0.23529411764705882" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

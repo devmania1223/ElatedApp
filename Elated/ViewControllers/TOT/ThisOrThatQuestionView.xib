@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ThisOrThatQuestionView" customModule="Elated" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Assets_Graphics_Bottom_Curve" translatesAutoresizingMaskIntoConstraints="NO" id="i4L-O9-XbK">
+                    <rect key="frame" x="-5" y="591" width="424" height="145"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="145" id="NaC-XH-L2q"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wez-D1-Rno">
+                    <rect key="frame" x="52" y="45" width="310" height="28.666666666666671"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CcJ-t4-C44" customClass="EL_BubblesView" customModule="Elated" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="120" width="414" height="616"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="i4L-O9-XbK" secondAttribute="trailing" constant="-5" id="7bJ-4u-LRD"/>
+                <constraint firstItem="CcJ-t4-C44" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="AVQ-WJ-HKo"/>
+                <constraint firstItem="CcJ-t4-C44" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="QT9-W1-Oxj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wez-D1-Rno" secondAttribute="trailing" constant="52" id="Uel-r2-JvF"/>
+                <constraint firstItem="wez-D1-Rno" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="45" id="ZjJ-tW-yRz"/>
+                <constraint firstItem="CcJ-t4-C44" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="bXj-Ko-C4b"/>
+                <constraint firstItem="wez-D1-Rno" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="52" id="o2w-1e-iVS"/>
+                <constraint firstItem="i4L-O9-XbK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-5" id="q9y-QF-Nwo"/>
+                <constraint firstItem="i4L-O9-XbK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ukh-cS-VOV"/>
+                <constraint firstItem="CcJ-t4-C44" firstAttribute="top" secondItem="wez-D1-Rno" secondAttribute="bottom" constant="46.333333333333329" id="xeU-FQ-ndb"/>
+            </constraints>
+            <connections>
+                <outlet property="bubbles" destination="CcJ-t4-C44" id="Xmh-1g-zBY"/>
+                <outlet property="questionLabel" destination="wez-D1-Rno" id="HWq-9v-TXq"/>
+            </connections>
+            <point key="canvasLocation" x="135" y="50"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Assets_Graphics_Bottom_Curve" width="500" height="179"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

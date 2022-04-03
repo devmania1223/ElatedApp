@@ -1,0 +1,68 @@
+
+{
+    "invitee_skips" : 0,
+    "sparkflirt" : 1218,
+    "inviter_reset" : 0,
+    "id" : 10,
+    "created" : "2021-10-14T07:40:42+0000",
+    "inviter" : {
+        "avatar" : {
+            "pk" : 444,
+            "thumbnail" : "",
+            "order" : 1,
+            "image" : "",
+            "source" : null,
+            "caption" : "",
+            "user" : 0,
+            "updated_at" : "2021-10-13T07:35:22+0000"
+        },
+        "first_name" : "Alex",
+        "last_name" : "Smith",
+        "id" : 0
+    },
+    "modified" : "2021-10-16T07:16:10+0000",
+    "invitee_reset" : 0,
+    "is_keyboard" : false,
+    "current_player_turn" : 264,
+    "inviter_skips" : 0,
+    "game_status" : "STARTED",
+    "emojigo" : [
+        {
+            "question" : {
+                "id" : 3,
+                "user" : 264,
+                "text" : "What's the FIRST country you visited?"
+            },
+            "round" : 1,
+            "answer" : {
+                "text" : "🇬🇧",
+                "user" : 0
+            }
+        },
+        {
+            "question" : {
+                "text" : "Pet preference?",
+                "id" : 4,
+                "user" : 0
+            },
+            "round" : 2
+        }
+    ],
+    "turn_type" : "answer",
+    "invitee" : {
+        "avatar" : {
+            "user" : 264,
+            "order" : 1,
+            "updated_at" : "2021-08-25T15:33:14+0000",
+            "pk" : 392,
+            "source" : null,
+            "caption" : "",
+            "thumbnail" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/thumbnails\/69011f5c-930a-4976-bada-f20f408b06ad.jpeg",
+            "image" : "https:\/\/s3.amazonaws.com\/elated-api-dev-final\/uploads\/images\/5ea5d898-7052-41a8-98b4-939b7923271b.jpeg"
+        },
+        "id" : 264,
+        "first_name" : "Sam",
+        "last_name" : "West"
+    },
+    "current_round" : 2
+}
